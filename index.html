@@ -93,7 +93,7 @@
   </nav>
 
   <!-- Hero Section -->
-  <section class="min-h-screen flex items-center justify-center px-6 fade-up pt-20 bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800">
+  <section class="min-h-screen flex items-center justify-center px-6 fade-up pt-20 bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 relative">
     <div class="text-center max-w-3xl">
       <!-- Profile Picture Area -->
       <div class="mb-8 flex justify-center">
@@ -130,7 +130,7 @@
       </div>
 
       <!-- Scroll indicator -->
-      <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2">
+      <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10">
         <button onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})" class="animate-bounce p-2 rounded-full hover:bg-indigo-600/10 transition cursor-pointer" title="Scroll down">
           <svg class="w-6 h-6 text-gray-600 dark:text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
